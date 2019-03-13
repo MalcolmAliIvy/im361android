@@ -1,3 +1,13 @@
+
 <resources>
-    <string name="app_name">Say</string>
+<string name="app_name">Say</string>
+<plurals name="was_clicked">
+    <item quantity="one">I\'ve been clicked %d time!</item>
+    <item quantity="other">I\'ve been clicked %d times!</item>
+</plurals>
+<button name="button">Button</button>
+    <string name="was_clicked">I\'ve_been_clicked!</string>
+    <string name="say">Say</string>
+    <string name="start">Start</string>
+
 </resources>

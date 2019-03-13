@@ -7,15 +7,23 @@ import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
 
+    var count = 0
+
+    myButton.setOnClickListener {
+        counter++
+        myText.text = resources.getQuantityString(R.string. was_clicked , counter, counter)
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var myText: TextView = findViewById(R.id.my_text_view)
-        var myButton: Button = findViewById(R.id.my_button)
+        val myText: TextView = findViewById(R.id.my_text_view)
+        val myButton: Button = findViewById(R.id.my_button)
         myButton.setOnClickListener {
-            myText.text = "I've been clicked!"
+            myText.text = getString(R.string.was_clicked)
         }
+
 
 
 
