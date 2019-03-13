@@ -9,5 +9,9 @@
     <string name="was_clicked">I\'ve_been_clicked!</string>
     <string name="say">Say</string>
     <string name="start">Start</string>
+    <string name="level">Level</string>
+    <string name="progress">Progress</string>
+    <string name="say_title">Say ( Title)</string>
+    <string name="this_is_the_app_icon">This is the app Icon</string>
 
 </resources>
