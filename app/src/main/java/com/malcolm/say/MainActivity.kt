@@ -8,9 +8,14 @@ import android.widget.TextView
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
+import com.google.android.gms.maps.model.LatLng
 
 class MainActivity : AppCompatActivity(), OnMapReadyCallback {
-    override fun onMapReady(p0: GoogleMap?) {
+    override fun onMapReady(map: GoogleMap?) {
+        val morton = LatLng(40.6091693, -89.5392298)
+//        map?.addMarker(MarkerOptions().position(morton).title("Pumpkin capital of the world"))
+//        map?.moveCamera(CameraUpdateFactory.newLatLng(morton))
+
         Log.i ("Say","Map is ready")
     }
 
