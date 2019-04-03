@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <Button
+            android:text="Vocabulary"
+            android:layout_width="346dp"
+            android:layout_height="0dp" tools:layout_editor_absoluteY="296dp"
+            android:id="@+id/button8" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintHorizontal_bias="0.501" android:textSize="18sp"
+            android:background="@color/colorAccent" android:textColor="@color/colorBackground"
+            android:textStyle="bold"/>
+    <Button
+            android:text="Cards"
+            android:layout_width="346dp"
+            android:layout_height="0dp" tools:layout_editor_absoluteY="389dp"
+            android:id="@+id/button9" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:textSize="18sp"
+            android:background="@color/colorAccent" android:textColor="@color/colorBackground"
+            android:textStyle="bold"/>
+    <Button
+            android:text="Quizzes"
+            android:layout_width="346dp"
+            android:layout_height="0dp" tools:layout_editor_absoluteY="484dp"
+            android:id="@+id/button10" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:textSize="18sp"
+            android:background="@color/colorAccent" android:textColor="@color/colorBackground"
+            android:textStyle="bold"/>
+    <Button
+            android:text="Tests"
+            android:layout_width="346dp"
+            android:layout_height="0dp" tools:layout_editor_absoluteY="583dp"
+            android:id="@+id/button11" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:textSize="18sp"
+            android:background="@color/colorAccent" android:textColor="@color/colorBackground"
+            android:textStyle="bold"/>
+    <ImageView
+            android:layout_width="436dp"
+            tools:srcCompat="@color/colorPrimary"
+            tools:layout_editor_absoluteY="77dp" tools:layout_editor_absoluteX="-15dp" android:id="@+id/imageView2"
+            android:layout_height="105dp"/>
+    <TextView
+            android:text="French Lesson 1 "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="91dp"
+            android:id="@+id/textView2" android:textSize="30sp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused" android:textStyle="bold"/>
+    <CheckBox
+            android:text="Compleated"
+            android:layout_width="127dp"
+            android:layout_height="32dp" tools:layout_editor_absoluteY="139dp"
+            tools:layout_editor_absoluteX="142dp" android:id="@+id/checkBox"/>
+</android.support.constraint.ConstraintLayout>

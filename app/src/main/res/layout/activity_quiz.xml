@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <ImageView
+            android:layout_width="436dp"
+            tools:srcCompat="@color/colorPrimary"
+            tools:layout_editor_absoluteY="77dp" tools:layout_editor_absoluteX="0dp" android:id="@+id/imageView4"
+            android:layout_height="105dp"/>
+    <TextView
+            android:text="Frebch Quiz 1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="102dp"
+            android:id="@+id/textView15" android:textSize="30sp"
+            android:textStyle="bold" android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"/>
+    <TextView
+            android:text="Pronouns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="150dp"
+            tools:layout_editor_absoluteX="176dp" android:id="@+id/textView16" android:textStyle="bold"/>
+    <Button
+            android:text="Tu"
+            android:layout_width="337dp"
+            android:layout_height="47dp" tools:layout_editor_absoluteY="371dp"
+            android:id="@+id/button18" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:background="@color/colorAccent" android:textColor="@color/colorBackground"
+            android:textStyle="bold"/>
+    <Button
+            android:text="IL"
+            android:layout_width="337dp"
+            android:layout_height="47dp" tools:layout_editor_absoluteY="455dp"
+            android:id="@+id/button19" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:background="@color/colorAccent" android:textSize="18sp" android:textColor="@color/colorBackground"/>
+    <Button
+            android:text="Hello"
+            android:layout_width="337dp"
+            android:layout_height="47dp" tools:layout_editor_absoluteY="536dp"
+            android:id="@+id/button20" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            android:background="@color/colorAccent" android:textColor="@color/colorBackground"/>
+    <TextView
+            android:text="You "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="243dp"
+            android:id="@+id/textView17" android:textSize="50sp"
+            android:textStyle="bold" android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"/>
+    <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="321dp"
+            android:layout_height="38dp"
+            tools:layout_editor_absoluteY="192dp" android:id="@+id/progressBar4"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"/>
+</android.support.constraint.ConstraintLayout>
