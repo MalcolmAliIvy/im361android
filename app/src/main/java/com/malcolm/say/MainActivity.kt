@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
 
         val myButton: Button = findViewById(R.id.start_button)
         myButton.setOnClickListener {
-            val intent = Intent(this, FrenchActivity::class.java)
+            val intent = Intent(this, LanguageActivity::class.java)
             startActivity(intent)
         }
     }
