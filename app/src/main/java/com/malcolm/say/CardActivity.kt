@@ -11,9 +11,9 @@ class CardActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cards)
 
-        val myButton: Button = findViewById(R.id.start_button)
+        val myButton: Button = findViewById(R.id.pronoun_button)
         myButton.setOnClickListener {
-            val intent = Intent(this, FrenchActivity::class.java)
+            val intent = Intent(this, CardVocabActivity::class.java)
             startActivity(intent)
         }
     }
