@@ -15,5 +15,6 @@ class CardActivity : AppCompatActivity() {
         myButton.setOnClickListener {
             val intent = Intent(this, FrenchActivity::class.java)
             startActivity(intent)
+        }
     }
 }

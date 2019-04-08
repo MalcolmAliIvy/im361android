@@ -12,9 +12,11 @@ class VocabActivity : AppCompatActivity() {
         setContentView(R.layout.activity_language)
 
 
-        val myButton: Button = findViewById(R.id.start_button)
+        val myButton: Button = findViewById(R.id.next_card1)
         myButton.setOnClickListener {
             val intent = Intent(this, FrenchActivity::class.java)
             startActivity(intent)
+
+        }
     }
 }

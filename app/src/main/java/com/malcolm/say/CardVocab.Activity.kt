@@ -16,7 +16,7 @@ class CardVocabActivity : AppCompatActivity() {
             val intent = Intent(this, FrenchActivity::class.java)
             startActivity(intent)
 
-
+        }
 
     }
 }

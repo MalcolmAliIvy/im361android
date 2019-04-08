@@ -16,5 +16,7 @@ class ExamActivityActivity : AppCompatActivity() {
             val intent = Intent(this, FrenchActivity::class.java)
             startActivity(intent)
 
+
+        }
     }
 }

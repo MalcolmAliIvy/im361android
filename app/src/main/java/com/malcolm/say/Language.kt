@@ -16,5 +16,7 @@ class LanguageActivity : AppCompatActivity() {
             val intent = Intent(this, FrenchActivity::class.java)
             startActivity(intent)
 
+        }
+
     }
 }
